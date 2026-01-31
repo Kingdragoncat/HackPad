@@ -1,0 +1,7 @@
+### Footprint positions - created on 2026-01-30T21:14:52-0600 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                    Package                                      PosX       PosY       Rot  Side
+U1        MOUDLE-SEEEDUINO-XIAO  XIAO-Generic-Hybrid-14P-2.54-21X17.8MM    57.1500   -37.7825  180.0000  bottom
+## End
