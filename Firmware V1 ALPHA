@@ -1,0 +1,80 @@
+#include <Adafruit_NeoPixel.h>
+
+// -------- CONFIG --------
+#define NUM_LEDS 11
+#define LED_PIN 7
+
+#define ENC_A 0
+#define ENC_B 1
+
+const int switches[5] = {2, 3, 4, 5, 6};
+// ------------------------
+
+// LED object (SK6812 = RGBW)
+Adafruit_NeoPixel leds(NUM_LEDS, LED_PIN, NEO_GRBW + NEO_KHZ800);
+
+// Encoder state
+int lastEncA = HIGH;
+int encoderPos = 0;
+
+void setup() {
+  // Encoder pins
+  pinMode(ENC_A, INPUT_PULLUP);
+  pinMode(ENC_B, INPUT_PULLUP);
+
+  // Switch pins
+  for (int i = 0; i < 5; i++) {
+    pinMode(switches[i], INPUT_PULLUP);
+  }
+
+  // LEDs
+  leds.begin();
+  leds.setBrightness(40);
+  leds.show();
+}
+
+void loop() {
+  handleEncoder();
+  handleSwitches();
+}
+
+// -------- ENCODER --------
+void handleEncoder() {
+  int encA = digitalRead(ENC_A);
+
+  if (encA != lastEncA && encA == LOW) {
+    if (digitalRead(ENC_B) == HIGH) {
+      encoderPos++;
+    } else {
+      encoderPos--;
+    }
+    updateLEDs();
+  }
+
+  lastEncA = encA;
+}
+
+// -------- SWITCHES --------
+void handleSwitches() {
+  for (int i = 0; i < 5; i++) {
+    if (digitalRead(switches[i]) == LOW) {
+      setSingleLED(i);
+    }
+  }
+}
+
+// -------- LED CONTROL --------
+void updateLEDs() {
+  leds.clear();
+
+  int index = abs(encoderPos) % NUM_LEDS;
+  leds.setPixelColor(index, leds.Color(0, 0, 255, 0)); // Blue
+
+  leds.show();
+}
+
+void setSingleLED(int index) {
+  leds.clear();
+  leds.setPixelColor(index, leds.Color(255, 0, 0, 0)); // Red
+  leds.show();
+}
