@@ -10,29 +10,29 @@ Below are selected photos from the Fusion design exports and KiCad board/schemat
 
 Assembled:
 
-![Assembled](FUSION Photos/Assembled.png)
+![Assembled](FUSION%20Photos/Assembled.png)
 
 Case:
 
-![Case](FUSION Photos/Case.png)
+![Case](FUSION%20Photos/Case.png)
 
 Lid:
 
-![Lid](FUSION Photos/Lid.png)
+![Lid](FUSION%20Photos/Lid.png)
 
 ### KiCad Photos (local PNGs)
 
 Board render:
 
-![PCB board](KICAD Photos/PCB.png)
+![PCB board](KICAD%20Photos/PCB.png)
 
 3D view:
 
-![3D view](KICAD Photos/3D PCG.png)
+![3D view](KICAD%20Photos/3D%20PCG.png)
 
 Schematic:
 
-![Schematic](KICAD Photos/schematic.png)
+![Schematic](KICAD%20Photos/schematic.png)
 
 ## Files and folders
 
