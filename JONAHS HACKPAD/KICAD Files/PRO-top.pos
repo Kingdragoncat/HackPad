@@ -1,0 +1,30 @@
+### Footprint positions - created on 2026-01-31T12:03:32-0600 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                              PosX       PosY       Rot  Side
+D1        1N4148                D_DO-35_SOD27_P7.62mm_Horizontal                  30.1000   -33.6300    0.0000  top
+D2        1N4148                D_DO-35_SOD27_P7.62mm_Horizontal                  30.0700   -36.4400    0.0000  top
+D3        1N4148                D_DO-35_SOD27_P7.62mm_Horizontal                  30.0700   -39.3500    0.0000  top
+D4        1N4148                D_DO-35_SOD27_P7.62mm_Horizontal                  30.0500   -42.2900    0.0000  top
+D5        1N4148                D_DO-35_SOD27_P7.62mm_Horizontal                  29.9500   -45.4100    0.0000  top
+D6        SK6812MINI-E          SK6812MINI-E_fixed                                47.5600   -85.7262    0.0000  top
+D7        SK6812MINI-E          SK6812MINI-E_fixed                                66.2223   -85.7438    0.0000  top
+D8        SK6812MINI-E          SK6812MINI-E_fixed                                47.6250   -66.6750    0.0000  top
+D9        SK6812MINI-E          SK6812MINI-E_fixed                                47.6250  -104.7750    0.0000  top
+D10       SK6812MINI-E          SK6812MINI-E_fixed                                66.6750  -104.7750    0.0000  top
+D11       SK6812MINI-E          SK6812MINI-E_fixed                                66.6750   -66.6750    0.0000  top
+D12       SK6812MINI-E          SK6812MINI-E_fixed                                57.3687   -58.8841    0.0000  top
+D13       SK6812MINI-E          SK6812MINI-E_fixed                                70.5847   -37.8812  -90.0000  top
+D14       SK6812MINI-E          SK6812MINI-E_fixed                                42.6437   -38.1000   90.0000  top
+D15       SK6812MINI-E          SK6812MINI-E_fixed                                80.7437   -58.0028    0.0000  top
+D16       SK6812MINI-E          SK6812MINI-E_fixed                                33.3375   -57.1500    0.0000  top
+D17       1N4148                D_SOD-123                                         35.7188   -48.5937    0.0000  top
+RE1       RotaryEncoder_Switch  RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm    68.9500   -73.7000    0.0000  top
+SW2       SW_Push               SW_Cherry_MX_1.00u_PCB                            59.6900   -71.1200    0.0000  top
+SW3       SW_Push               SW_Cherry_MX_1.00u_PCB                            40.6400   -90.1700    0.0000  top
+SW4       SW_Push               SW_Cherry_MX_1.00u_PCB                            59.6900   -90.1700    0.0000  top
+SW5       SW_Push               SW_Cherry_MX_1.00u_PCB                            78.7400   -90.1700    0.0000  top
+SWw1      SW_Push               SW_Cherry_MX_1.00u_PCB                            40.6400   -71.1200    0.0000  top
+U2        OLED_0.91_128x32      PinHeader_1x04_P2.54mm_Vertical                   40.4813   -54.2925    0.0000  top
+## End
