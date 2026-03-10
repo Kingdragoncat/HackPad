@@ -36,9 +36,9 @@ Schematic:
 
 ## Files and folders
 
-- Fusion exports and photos: [FUSION Photos](FUSION Photos)
-- KiCad source and exports: [KICAD Files](KICAD Files)
-- KiCad photos (shortcuts to hosted images): [KICAD Photos](KICAD Photos)
+- Fusion exports and photos: [FUSION Photos](FUSION%20Photos)
+- KiCad source and exports: [KICAD Files](KICAD%20Files)
+- KiCad photos (local): [KICAD Photos](KICAD%20Photos)
 
 .
 
