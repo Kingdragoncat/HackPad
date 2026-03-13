@@ -4309,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 99.06) (xy 199.39 99.06)
+			(xy 199.39 99.06) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4516,16 +4516,6 @@
 			(type default)
 		)
 		(uuid "5e188f01-27ed-492a-a453-0fa86533858a")
-	)
-	(wire
-		(pts
-			(xy 227.33 99.06) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c3679e-4981-400c-9205-dd8307085e0d")
 	)
 	(wire
 		(pts
@@ -4866,92 +4856,6 @@
 			(type default)
 		)
 		(uuid "f0f58f53-dc00-4305-999f-7d19be8afede")
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 208.28 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a3e059d-fbd4-474b-9c04-9f95be2251a7")
-		(property "Reference" "D17"
-			(at 208.28 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f2fd1e6-850e-4a74-8c41-0e5c88877ed9")
-		)
-		(pin "2"
-			(uuid "2347f05b-c732-4638-b1a5-3237321a1e16")
-		)
-		(instances
-			(project "HACK PAD!"
-				(path "/a709c780-9f71-42cb-8f66-67c5b8585a22"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
